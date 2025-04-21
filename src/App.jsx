@@ -4,6 +4,7 @@ import { Sun, Moon, BarChart3, User, Settings, PieChart, Home as HomeIcon } from
 import { motion } from 'framer-motion'
 import Home from './pages/Home'
 import Teams from './pages/Teams'
+import Analytics from './pages/Analytics'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -104,6 +105,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/teams" element={<Teams />} />
+          <Route path="/analytics" element={<Analytics />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
