@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import Home from './pages/Home'
 import Teams from './pages/Teams'
 import Analytics from './pages/Analytics'
+import Reports from './pages/Reports'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -106,6 +107,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="/reports" element={<Reports />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
