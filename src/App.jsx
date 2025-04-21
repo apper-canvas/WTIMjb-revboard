@@ -53,9 +53,9 @@ function App() {
             className="flex items-center"
           >
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold text-lg">
-              R
+              S
             </div>
-            <h1 className="ml-2 text-xl font-bold text-surface-800 dark:text-white hidden lg:block">RevBoard</h1>
+            <h1 className="ml-2 text-xl font-bold text-surface-800 dark:text-white hidden lg:block">SalesBoard</h1>
           </motion.div>
         </div>
         
